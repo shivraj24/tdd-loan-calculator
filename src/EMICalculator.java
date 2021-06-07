@@ -36,12 +36,12 @@ public class EMICalculator {
 				switch(c1)
 				{
 					case 1:
-						long emi = homeLoan.EMIamount();
+						long emi = homeLoan.EMI_Amount();
 						System.out.println("EMI : " + emi);
 						break;
 						
 					case 2:
-						long total_amount = homeLoan.total_payable_amount();
+						long total_amount = homeLoan.TotalPayableAmount();
 						System.out.println("Total Amount to pay : " + total_amount);
 						break;
 				}
@@ -57,12 +57,12 @@ public class EMICalculator {
 				switch(c2)
 				{
 					case 1:
-						long emi = personalLoan.EMIamount();
+						long emi = personalLoan.EMI_Amount();
 						System.out.println("EMI : " + emi);
 						break;
 						
 					case 2:
-						long total_amount = personalLoan.total_payable_amount();
+						long total_amount = personalLoan.TotalPayableAmount();
 						System.out.println("Total Amount to pay : " + total_amount);
 						break;
 				}
@@ -78,12 +78,12 @@ public class EMICalculator {
 				switch(c3)
 				{
 					case 1:
-						long emi = carLoan.EMIamount();
+						long emi = carLoan.EMI_Amount();
 						System.out.println("EMI : " + emi);
 						break;
 						
 					case 2:
-						long total_amount = carLoan.total_payable_amount();
+						long total_amount = carLoan.TotalPayableAmount();
 						System.out.println("Total Amount to pay : " + total_amount);
 						break;
 				}

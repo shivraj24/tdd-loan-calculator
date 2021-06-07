@@ -12,7 +12,7 @@ public class HomeLoanCalculator{
 		principle_amount = p;
 		tenure = t;
 	}
-	public long EMIamount()
+	public long EMI_Amount()
 	{
 		long result = 0;
 		
@@ -23,11 +23,11 @@ public class HomeLoanCalculator{
 		
 	}
 	
-	public long total_payable_amount()
+	public long TotalPayableAmount()
 	{
 		
 		
-		long emi = EMIamount();
+		long emi = EMI_Amount();
 		
 		long months = tenure;
 		
